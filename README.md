@@ -16,5 +16,5 @@
 
 ## ⚙️ Требования
 
-*   Python 3.x
+*   Python 3.0 и выше
 *   Tkinter (обычно входит в стандартную установку Python на Windows и macOS. Пользователям Linux может потребоваться установить его отдельно, например: `sudo apt-get install python3-tk`).
