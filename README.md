@@ -1,20 +1,20 @@
 # Encryptor-Tkinter
 
-A simple graphical tool for text encryption and decryption, written in Python using the Tkinter library.
+Простой графический инструмент для шифрования и дешифрования текста, написанный на Python с использованием библиотеки Tkinter.
 
 ![Application Screenshot](https://github.com/user-attachments/assets/73b34e23-01e9-464b-91da-4bf50c28734e)
 
-## ✨ Features
+## ✨ Возможности
 
-The application supports the following classical encryption methods:
+Программа поддерживает следующие классические методы шифрования:
 
-*   **Caesar Cipher** — A simple substitution cipher. Each character is replaced by another one shifted by *k* positions in the alphabet. Easy to implement, but not resistant to cracking.
-*   **Atbash Cipher** — A simple substitution cipher, first used for the Hebrew alphabet. The first letter of the alphabet is replaced by the last, the second by the second-to-last, and so on. Not reliable.
-*   **Vigenère Cipher** — A polyalphabetic substitution method using a keyword. During encryption, each letter is replaced by a character shifted *k* positions to the right, where *k* is the position of the letter in the keyword.
-*   **Playfair Square** — A cryptographically strong cipher using a matrix and a keyword. The algorithm encrypts pairs of characters in the message based on their positions in the matrix.
-*   **Polybius Square** — A non-standard cipher using a matrix. The message is converted into coordinates, which are written vertically and read horizontally. Cryptographically strong.
+*   **Сдвиг Цезаря** — Шифр простой замены. Каждый символ заменяется другим, стоящим от него в алфавите на k позиций. Прост в реализации, но не устойчив к взлому.
+*   **Шифр Атбаш** — Шифр простой замены, использованный впервые для еврейского алфавита. Замена первой буквы алфавита на последнюю, второй на предпоследнюю и т.д. Не надежен.
+*   **Шифр Виженера** — Метод многоалфавитной замены с кодовым словом. При шифровании каждая буква заменяется на символ, стоящий на k позиций правее, где k — место буквы в кодовом слове.
+*   **Квадрат Плейфера** — Криптоустойчивый шифр с использованием матрицы и кодового слова. Алгоритм зашифровывает пары символов сообщения в зависимости от их положения в матрице.
+*   **Метод Полибия** — Нестандартный шифр с применением матрицы. Сообщение преобразуется в координаты, которые записываются вертикально, а считываются горизонтально.
 
-## ⚙️ Requirements
+## ⚙️ Требования
 
 *   Python 3.x
-*   Tkinter (usually included in standard Python installations on Windows and macOS. Linux users may need to install it separately, for example: `sudo apt-get install python3-tk`).
+*   Tkinter (обычно входит в стандартную установку Python на Windows и macOS. Пользователям Linux может потребоваться установить его отдельно, например: `sudo apt-get install python3-tk`).
